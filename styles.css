@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+.logo, .menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+ width: 190px;
+ height: 35px;
+ background: url('img/logo.svg');
+ 
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu__item {
+  padding: 0 13px;
+}
+
+.menu__item:last-child {
+  padding-right: 0;
+}
+
+.header {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
